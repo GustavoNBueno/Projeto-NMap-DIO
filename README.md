@@ -46,6 +46,14 @@ nmap -n -sV -p 21,22,80,445,139 192.168.56.101
 
 ![Nmap scan](screenshots/nmap-scan.jpeg)
 
+**Criação de wordlists:**
+```bash 
+echo -e "user\nmsfadmin\nadmin\nroot" > users.txt
+```
+```bash
+echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt
+```
+
 **Ataque de força bruta ao serviço FTP com Medusa:**
 
 ```bash
