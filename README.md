@@ -3,11 +3,14 @@ Este projeto foi desenvolvido como parte do bootcamp da DIO, com o objetivo de a
 O objetivo é demonstrar, em um ambiente totalmente controlado e isolado, como credenciais fracas podem ser exploradas por ferramentas automatizadas, reforçando a importância de boas práticas de segurança como senhas fortes, bloqueio de tentativas e autenticação em múltiplos fatores.
 
 🎯 Objetivos
+
 Compreender o funcionamento de ataques de força bruta;
 Praticar o uso de ferramentas de pentest em ambiente de laboratório;
 Identificar vulnerabilidades relacionadas a autenticação fraca no serviço FTP;
 Documentar o processo seguindo boas práticas de um relatório de pentest.
+
 🛠️ Ferramentas utilizadas
+
 Kali Linux – distribuição focada em testes de segurança;
 Metasploitable 2 – máquina virtual propositalmente vulnerável para fins educacionais;
 Nmap – para reconhecimento e identificação de portas e serviços ativos (incluindo o FTP);
