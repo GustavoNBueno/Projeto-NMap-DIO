@@ -31,7 +31,7 @@ Documentação dos resultados e evidências (prints/logs dos comandos executados
 💻 Exemplo de comandos utilizados
 
 # Escaneamento de portas e serviços
-nmap -sV -p 21,22,80,445,139 192.168.56.101
+nmap -n -sV -p 21,22,80,445,139 192.168.56.101
 ![Nmap scan](screenshots/nmap-scan.jpeg)
 
 # Ataque de força bruta ao serviço FTP com Medusa
