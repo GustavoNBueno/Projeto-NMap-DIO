@@ -16,6 +16,7 @@ Metasploitable 2 – máquina virtual propositalmente vulnerável para fins educ
 Nmap – para reconhecimento e identificação de portas e serviços ativos (incluindo o FTP);
 Medusa – para automação do ataque de força bruta contra o serviço FTP;
 VirtualBox – para virtualização do ambiente de laboratório.
+
 🧪 Ambiente de testes
 
 ⚠️ Este projeto foi executado exclusivamente em ambiente de laboratório isolado (rede interna/host-only), com máquinas virtuais criadas especificamente para fins de estudo. Nenhum sistema real ou de terceiros foi atacado.
