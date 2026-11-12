@@ -27,8 +27,9 @@ Preparação de wordlists de usuários e senhas para o ataque;
 Execução do ataque de força bruta contra o serviço FTP utilizando o Medusa;
 Obtenção de credenciais válidas de acesso ao serviço;
 Documentação dos resultados e evidências (prints/logs dos comandos executados).
+
 💻 Exemplo de comandos utilizados
-bash
+
 # Escaneamento de portas e serviços
 nmap -sV -p 21,22,80,445,139 192.168.56.101
 
